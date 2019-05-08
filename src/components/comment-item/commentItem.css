@@ -1,0 +1,32 @@
+li{
+    transition: .5s;
+    overflow: hidden;
+}
+
+.handle{
+    width: 40px;
+    height: 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+    position: absolute;
+    right: 10px;
+    top: 1px;
+    text-align: center;
+}
+
+.handle a{
+    display: block;
+    text-decoration: none;
+}
+.handle a:hover{
+    background: #666;
+    color:#fff;
+}
+
+.list-group-item .centence{
+    padding: 0 50px;
+}
+
+.user{
+    font-size: 22px;
+}
